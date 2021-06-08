@@ -1,0 +1,18 @@
+.top{
+}
+
+.ctnImg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rct{
+    height: 676px;
+    width: 150px;
+background-color: rgba(195, 154, 97);
+}
+
+.imgLat{
+    width: 500px;
+    height: 676px;
+}

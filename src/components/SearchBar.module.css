@@ -1,0 +1,23 @@
+.bar{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.form{
+    width: 400px;
+    height: 40px;
+}
+
+.button{
+    border-radius: 10px;
+    background-color:rgb(202, 80, 104);
+    height: 40px;
+}
+
+.button:hover{
+    color:transparent;
+    background: url(../img/plane-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}

@@ -1,0 +1,87 @@
+.All{
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(39, 104, 118)
+}
+
+#logoHenry {
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;  
+}
+
+.Bar{
+  margin-top: -65px;
+  margin-bottom: -65px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  transform: scale(0.8);
+}
+.active .home{
+  border-bottom: 1px solid white;
+}
+
+.active .about{
+  border-bottom: 1px solid white;
+}
+
+.active .emojiHome{
+  visibility: visible;
+  border-bottom: transparent;
+}
+
+.active .emojiAbout{
+  visibility: visible;
+}
+
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 100px;
+}
+
+.home{
+  color: white;
+}
+
+.home:hover{
+color:white;
+border-bottom: 1px solid white;
+}
+
+.about{
+  color:white;
+  margin-left: 50px;
+}
+
+.about:hover{
+  color:white;
+  border-bottom: 1px solid white;
+}
+
+span{
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.emojiHome{
+  font-size: 20px;
+  visibility: hidden;
+}
+
+.home:hover .emojiHome{
+  visibility: visible;
+}
+
+.emojiAbout{
+  font-size: 20px;
+  visibility: hidden;
+}
+
+.about:hover .emojiAbout{
+  visibility: visible;
+}

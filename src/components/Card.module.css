@@ -1,0 +1,34 @@
+.hola{
+    width: 13em;
+    height: 13em;
+    background-color: rgba(39, 104, 118);
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.divButton{
+display: flex;
+justify-content: flex-end;
+}
+
+.button{
+    background-color: rgb(202, 80, 104);
+    border-radius: 8px;
+}
+
+.content{
+    display: block;
+    color: white;
+}
+
+.minmax{
+    display:flex;
+    justify-content: space-around;  
+}
+
+.ima{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
